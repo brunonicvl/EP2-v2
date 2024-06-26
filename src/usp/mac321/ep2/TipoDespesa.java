@@ -55,4 +55,8 @@ public class TipoDespesa implements TipoOperacao {
 		
 		return nomeDoTipo;
 	}
+
+	public boolean isSub() {
+		return sub;
+	}
 }
