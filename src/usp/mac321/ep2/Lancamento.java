@@ -16,7 +16,7 @@ public class Lancamento {
 
 
 	Lancamento(int dia, int mes, int ano, Usuario user, boolean receitaOuDespesa, TipoOperacao tipo, String descricao, double valor){
-		data = new GregorianCalendar(ano, mes, ano);
+		data = new GregorianCalendar(ano, mes, dia);
 		this.user = user;
 		this.receitaOuDespesa = receitaOuDespesa;
 		this.tipo = tipo;
